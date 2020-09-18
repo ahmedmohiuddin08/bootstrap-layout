@@ -1,0 +1,75 @@
+body {
+  background-color: fff;
+}
+
+.scroll-active {
+  background: rgb(165, 159, 176);
+  background: -moz-linear-gradient(
+    90deg,
+    rgba(165, 159, 176, 1) 0%,
+    rgba(255, 120, 120, 1) 70%,
+    rgba(207, 120, 74, 1) 100%
+  );
+  background: -webkit-linear-gradient(
+    90deg,
+    rgba(165, 159, 176, 1) 0%,
+    rgba(255, 120, 120, 1) 70%,
+    rgba(207, 120, 74, 1) 100%
+  );
+  background: linear-gradient(
+    90deg,
+    rgba(165, 159, 176, 1) 0%,
+    rgba(255, 120, 120, 1) 70%,
+    rgba(207, 120, 74, 1) 100%
+  );
+  color: aliceblue;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  box-shadow: 0 3px 1rem rgba(0, 0, 0, 0.2);
+  transition: background-color 500ms ease;
+  border-bottom: none !important;
+}
+
+.scroll-active .navbar-collapse .nav-link {
+  color: aliceblue;
+}
+
+#menu-bar {
+  transition: 500ms ease;
+}
+
+.box {
+  background-color: #4e89ae;
+  min-height: 100px;
+}
+
+.box-2 {
+}
+
+.height-200 {
+  min-height: 200px;
+}
+
+.red {
+  background-color: red;
+}
+
+.purple {
+  background-color: #9d65c9;
+}
+
+.light-red {
+  background-color: #e97171;
+}
+
+.off-white {
+  background-color: #e3dfc8;
+}
+
+.img-200 {
+  height: 200px;
+  width: 100%;
+  object-fit: cover;
+  position: relative;
+  overflow: hidden;
+}
